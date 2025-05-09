@@ -1,0 +1,242 @@
+.recipeContainer {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.prepCardContainer {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.prepCardContainer h2 {
+  margin-bottom: 20px;
+}
+
+.ingreCardContainer {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ingreCardContainer h2 {
+  margin-bottom: 20px;
+}
+
+
+.submitButtonWrapper {
+  text-align: center;
+  width: 30%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.formRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.leftColumn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rightColumn {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.inputWrapper {
+  margin-bottom: 5px;
+}
+
+.inputWrapper input,
+.inputWrapperTempAndCategory input,
+.inputWrapperDescription input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.inputWrapperDescription input {
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.inputWrapperPrepareMode input {
+  height: 100px;
+  width: 97.5%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.recipeTypeLabel {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.radioGroup {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.radioGroup label {
+  display: flex;
+  align-items: center;
+}
+
+.radioGroup input[type="radio"] {
+  margin-right: 5px;
+}
+
+.inputRow {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+
+.imageUploadContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.imagePreviewWrapper {
+  width: 400px;
+  height: 200px;
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+  position: relative;
+}
+
+.imagePreview {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  gap: 30px;
+}
+
+.placeholderText {
+  color: #aaa;
+  font-size: 14px;
+  position: absolute;
+}
+
+.submitButton {
+  background-color: #e24545;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 50%;
+}
+
+.deleteButton {
+  background-color: #e24545;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 10%;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin: auto;
+  gap: 20px;
+  width: 45%;
+}
+
+.buttonContainer button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.backButton {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 50%;
+}
+
+.submitButton:hover {
+  background-color: #c73434;
+}
+
+.ingredientRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.ingredientRow input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.removeButton {
+  background: #e24545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.addButton {
+  background: #e24545;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.submitButtonWrapper {
+  margin-top: 20px;
+  text-align: center;
+}
