@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:8080/receitas';
+const API_BASE_URL = 'https://backend-pi-vr4v.onrender.com/receitas';
 
 export const getAllRecipes = async () => {
   const response = await axios.get(API_BASE_URL);
