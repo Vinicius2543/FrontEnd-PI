@@ -210,7 +210,7 @@ function RecipeEditForm() {
                 <img
                   src={
                     typeof image === 'string' && !image.startsWith('blob')
-                      ? `http://localhost:8080${image}`
+                      ? `https://backend-pi-vr4v.onrender.com/${image}`
                       : image
                   }
                   alt="Preview"
