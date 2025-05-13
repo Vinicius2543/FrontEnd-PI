@@ -59,7 +59,7 @@ function RecipeList() {
               onClick={() => navigate(`/editar-receita/${recipe.id}`)}
               style={{ cursor: 'pointer' }}
             >
-              <img src={`https://backend-pi-vr4v.onrender.com/${recipe.imagemUrl}`} alt="Receita" />
+              <img src={`https://backend-pi-vr4v.onrender.com${recipe.imagemUrl}`} alt="Receita" />
               <div className={styles.recipeInfo}>
                 <span className={recipe.tipo === 'Próprio' ? styles.tagOwn : styles.tagTraditional}>
                   {recipe.tipo}
